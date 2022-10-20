@@ -218,7 +218,7 @@ FUPCMPlayer.prototype.flush = function() {
     
     if(!this.flag_request_stop) {
         const nextTimeGap = (this.startTime - this.audioCtx.currentTime)*1000;
-       this.ensuredSetTimeout(this.flush, nextTimeGap - 50);
+        this.ensuredSetTimeout(this.flush, nextTimeGap - 50);
     } else {
         this.flag_request_stop = false;
         bufferSource.onended = () => {
