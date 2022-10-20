@@ -1,0 +1,23 @@
+{
+  "name": "pcm-stream-player",
+  "version": "1.0.0",
+  "description": "A refined pcm player",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js --file lib/bundle.js --format esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everywill/pcm-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everywill/pcm-player/issues"
+  },
+  "homepage": "https://github.com/everywill/pcm-player#readme",
+  "devDependencies": {
+    "rollup": "^3.2.3"
+  }
+}
