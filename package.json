@@ -1,8 +1,9 @@
 {
   "name": "pcm-stream-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A refined pcm player",
   "main": "lib/bundle.js",
+  "files": ["lib/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup src/index.js --file lib/bundle.js --format esm"
